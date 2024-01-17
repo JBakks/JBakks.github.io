@@ -1,10 +1,18 @@
 /* Hero */
 .hero {
-    height: 60vh; 
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center; /* Center text within the hero */
     background-color: #f0f0f0; /* Add a background color for better visibility */
+
 }
 
+/* Adjust the zoom level for mobile devices and move up the section */
+@media (max-width: 767px) {
+    .hero {
+        height: 20vh; /* Adjust the value based on your desired zoom level */
+
+    }
+}
