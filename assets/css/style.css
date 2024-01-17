@@ -8,8 +8,3 @@
     background-color: #f0f0f0; /* Add a background color for better visibility */
 }
 
-@media (max-width: 768px) {
-    .hero {
-        height: 80vh; /* Adjust height for smaller screens */
-    }
-}
