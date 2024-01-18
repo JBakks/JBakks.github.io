@@ -43,7 +43,7 @@ a {
 h1 {
     color: var(--primary-colour);
     padding-top: 10vh;
-    font-size: 5em;
+    font-size: 10em;
     font-weight: bold;
 }
 
@@ -52,7 +52,7 @@ h1:before {
     color: var(--shadow-colour);
     position: absolute;
     transform-origin: bottom;
-    transform: skewX(-30deg) translateX(-30px);
+    transform: skewX(-30deg) translateX(-0.15em);
 }
 
 /* Hero */
