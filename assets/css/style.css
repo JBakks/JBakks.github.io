@@ -178,8 +178,8 @@ img {
     transform: scale(1.1);
 }
 #projects .item .right .project-title {
-    font-size: 2rem;
-    font-family: 'Montserrat';
+    font-size: 3rem;
+    font-family: 'Raleway';
     margin-bottom: 1rem;
 }
 #projects .item .right .project-sub-title {
@@ -200,6 +200,9 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
+    #projects .item:nth-of-type(even) .left {
+        margin-left: 0px;
+    }
     #projects .item {
         flex-direction: column;
     }
@@ -233,6 +236,9 @@ img {
     }
 }
 @media only screen and (max-width: 450px) {
+    #projects .item:nth-of-type(even) .left {
+        margin-left: 0px;
+    }
     #projects .item .right .buttons {
         flex-direction: column;
     }
